@@ -1,23 +1,97 @@
 body {
     margin: 0;
-    background-color: #1B244A;
+    background-color: #6e1423;
+}
+
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 150px;   /* smaller logo */
+    height: auto;
 }
 
 .container {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     color: #eee;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     font-size: 35.9px;
     padding-top: 20vh;
+    padding-bottom: 20vh;
+    gap: 100px;
 }
 .container p {
     font-size: 80px;
     margin: 0;
     background-color: #080001;
-    padding: 10px 40px;
+    padding: 20px 25px 20px 25px;
+    text-align: center;
     border-radius: 10px;
     width: 155px 120px;
-    font-family: cursed timer ULIL ;
+    font-family: "Cursed Timer ULiL", sans-serif;
+    color: #eee;
+}
+
+@import url(https://db.onlinewebfonts.com/c/ab0e848e0e83a85a5af69f5acf1ebe73?family=Cursed+Timer+ULiL);
+@font-face {
+    font-family: "Cursed Timer ULiL";
+    src: url("https://db.onlinewebfonts.com/t/ab0e848e0e83a85a5af69f5acf1ebe73.eot");
+    src: url("https://db.onlinewebfonts.com/t/ab0e848e0e83a85a5af69f5acf1ebe73.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/ab0e848e0e83a85a5af69f5acf1ebe73.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/ab0e848e0e83a85a5af69f5acf1ebe73.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/ab0e848e0e83a85a5af69f5acf1ebe73.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/ab0e848e0e83a85a5af69f5acf1ebe73.svg#Cursed Timer ULiL")format("svg");
+}
+
+.points {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.points button {
+    background-color: #6e1423;
+    border: solid 2px #f9eae1;
+    border-radius: 5px;
+    color: #f9eae1;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 14px;
+   font-family: cursed timer ulil, sans-serif;
+}
+
+#reset-button {
+    background-color: #6e1423;
+    border: solid 2px #f9eae1;
+    border-radius: 5px;
+    color: #f9eae1;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 14px;
+   font-family: cursed timer ulil, sans-serif;
+}
+.reset-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+#end-game-wrapper {
+    display: none;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    color: #eee;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    padding-bottom: 10px;
 }
