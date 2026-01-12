@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    background-color: #1B244A;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    color: #eee;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 35.9px;
+    padding-top: 20vh;
+}
+.container p {
+    font-size: 80px;
+    margin: 0;
+    background-color: #080001;
+    padding: 10px 40px;
+    border-radius: 10px;
+    width: 155px 120px;
+    font-family: cursed timer ULIL ;
+}

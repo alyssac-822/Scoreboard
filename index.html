@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link href="https://db.onlinewebfonts.com/c/ab0e848e0e83a85a5af69f5acf1ebe73?family=Cursed+Timer+ULiL" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <img src="img/PSJA-logo.png" alt="PSJA Bears Logo" class="logo">
+            <div>
+                <h3>BEARS</h3>
+                <p id="home-score">0</p>
+                <div class="points">    
+                    <button onclick="addOnePointToHome()">+1</button>
+                    <button onclick="addTwoPointsToHome()">+2</button>
+                    <button onclick="addThreePointsToHome()">+3</button>
+                </div>
+            </div>
+            <div>
+                <h3>GUEST</h3>
+                <p id="guest-score">0</p>
+                 <div class="points">    
+                    <button onclick="addOnePointToGuest()">+1</button>
+                    <button onclick="addTwoPointsToGuest()">+2</button>
+                    <button onclick="addThreePointsToGuest()">+3</button>
+                </div>
+            </div>
+        </div>
+        <div class="reset-wrapper">
+                <button id="reset-button" onclick="resetScores()">RESET</button>
+            </div>
+        </div>
+            <p>Made with ❤️ by Alyssa Castaneda</p>
+        <script src="index.js"></script>
+    </body>
+</html>
