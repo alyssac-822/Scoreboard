@@ -16,6 +16,9 @@
                 </div>
             </div>
             <div>
+                <h1 id="timer-display">00</h1>
+            </div>
+            <div>
                 <h3>GUEST</h3>
                 <p id="guest-score">0</p>
                  <div class="points">    
@@ -26,10 +29,12 @@
             </div>
         </div>
         <div class="reset-wrapper">
-                <button id="reset-button" onclick="resetScores()">RESET</button>
+                <button id="reset-button" onclick="resetScores()">NEW GAME</button>
+                <button id="timer-button" onclick="startTimer()">START TIMER</button>
+                <button id="timer-button" onclick="stopTimer()">STOP TIMER</button>
             </div>
         </div class="footer">
-            <p>Made with ❤️ by Alyssa Castaneda</p>
+            <p>Made with ❤️ and 🧸 pride by Alyssa Castaneda</p>
         <script src="index.js"></script>
     </body>
 </html>
